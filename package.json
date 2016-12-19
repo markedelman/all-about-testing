@@ -3,9 +3,12 @@
   "version": "0.0.1",
   "description": "Shopping list app to demo 'the modern classic'",
   "main": "server.js",
+  "directories":{
+    "test":"tests"
+  },
   "scripts": {
     "start": "node server.js",
-    "test": "mocha ./test"
+    "test": "mocha --no-colors"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
